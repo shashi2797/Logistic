@@ -1,0 +1,23 @@
+----->
+ table(bank$y)
+
+   no   yes 
+39922  5289 
+----->summary
+Null deviance: 32631  on 45210  degrees of freedom
+Residual deviance: 21562  on 45168  degrees of freedom
+AIC: 21648
+
+Number of Fisher Scoring iterations: 6
+------->
+confusion matrix
+       
+           no   yes
+  FALSE 38940  3456
+  TRUE    982  1833
+------->
+ Accuracy
+[1] 0.901838
+-------->
+1-Accuracy #Error Rate
+[1] 0.09816195
